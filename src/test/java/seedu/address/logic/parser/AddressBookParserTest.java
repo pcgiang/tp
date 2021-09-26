@@ -4,9 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static seedu.address.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
 import static seedu.address.commons.core.Messages.MESSAGE_UNKNOWN_COMMAND;
+import static seedu.address.logic.parser.CliSyntax.PREFIX_REMARK;
 import static seedu.address.testutil.Assert.assertThrows;
 import static seedu.address.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
-import static seedu.address.logic.parser.CliSyntax.PREFIX_REMARK;
 
 import java.util.Arrays;
 import java.util.List;
@@ -57,10 +57,10 @@ public class AddressBookParserTest {
     }
 
     @Test
-    public void parseCommand_remark() throws Exception{
-        Remark remark= new Remark("this is a remark");
-        String userInput = RemarkCommand.COMMAND_WORD + " " + INDEX_FIRST_PERSON.getOneBased() + " " +
-                PREFIX_REMARK + remark.value;
+    public void parseCommand_remark() throws Exception {
+        Remark remark = new Remark("this is a remark");
+        String userInput = RemarkCommand.COMMAND_WORD + " " + INDEX_FIRST_PERSON.getOneBased() + " "
+                + PREFIX_REMARK + remark.value;
         RemarkCommand command = (RemarkCommand) parser.parseCommand(userInput);
         assertEquals(new RemarkCommand(INDEX_FIRST_PERSON, remark), command);
     }
