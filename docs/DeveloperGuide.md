@@ -324,7 +324,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
     Use case ends.
 
 
-**2. Use case: UC2 - Edit events**
+**2. Use case: UC2 - Edit events details**
 
 **Preconditions:** There is at least one event in the list.
 
@@ -488,7 +488,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 * **Mainstream OS**: Windows, Linux, Unix, OS-X.
 
 
-* MSS: [Main Success Scenario](https://nus-cs2103-ay2122s1.github.io/website/schedule/week7/topics.html). Describes the most straightforward interaction for a given use case, which assumes that nothing goes wrong. 
+* MSS: Main Success Scenario. Describes the most straightforward interaction for a given use case, which assumes that nothing goes wrong. Find out more about MSS [here](https://nus-cs2103-ay2122s1.github.io/website/schedule/week7/topics.html).
 
 
 * CLI: Command Line Interface. Text-based user interface.
