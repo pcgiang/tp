@@ -54,7 +54,7 @@ We are a team based in the [School of Computing, National University of Singapor
 * Role: Integration
 * Responsibilities: UI
 
-### Pham Chau Giang
+### Pham Chau Giang hello
 
 <img src="images/pcgiang.png" width="200px">
 
