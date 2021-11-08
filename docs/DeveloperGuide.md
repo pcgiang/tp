@@ -1311,12 +1311,12 @@ Dealing with missing/corrupted data files
 Prerequisite: There should be a valid `soconnect.json` file saved in the data folder.
 
 <div markdown="span" class="alert alert-primary">
-:bulb: **Tip:** If there is no json file, start `soconnect.jar`, perform some changes to the default list of contacts or events (see [User Guide](../UserGuide.html)). A folder `data` with a file `soconnect.json` should be created.
+:bulb: **Tip:** If there is no json file, start `soconnect.jar`, perform some changes to the default list of contacts or events (see [User Guide](https://ay2122s1-cs2103t-w15-3.github.io/tp/UserGuide.html)). A folder `data` with a file `soconnect.json` should be created.
 </div>
 
    1. Test case: Edit the json file in order to corrupt it. For example, add an additional `{` to create some syntax error. Then, start `soconnect.jar`. <br>
    Expected: The event and contact list is empty.
 
    2. Test case: Delete the json file and start `soconnect.jar`. <br>
-   Expected: The default event and contact list is loaded (see [User Guide](../UserGuide.html#quick-start) for an example).
+   Expected: The default event and contact list is loaded (see [User Guide](https://ay2122s1-cs2103t-w15-3.github.io/tp/UserGuide.html) for an example).
       
